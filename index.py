@@ -6,8 +6,15 @@ def sum(a, b):
     print(a + b)
 
 
-a = input("Num 1: ")
-b = input("Num 2: ")
+a = int(input("Num 1: "))
+b = int(input("Num 2: "))
 
 
 sum(a, b)
+
+def sub(a,b):
+    print(a - b)
+
+a = int(input("Num 1:"))
+b = int(input("Num 2:")) 
+sub(a,b)
