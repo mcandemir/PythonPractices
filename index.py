@@ -18,3 +18,6 @@ def sub(a,b):
 a = int(input("Num 1:"))
 b = int(input("Num 2:")) 
 sub(a,b)
+
+def div(a,b):
+    print(a/b)
